@@ -6,6 +6,7 @@ body{
 :root{
     --mainColor: #F7CAC9;
     --grayColor: #343148;
+    --blackColor:black;
 }
  @media screen and (max-width: 900px) {
     .hero_img img , .img_about_us img{
@@ -190,17 +191,17 @@ width: 100%;
 
 .dropdown-item{
     padding: 15px;
-   color: black;
+   color: var(--blackColor);
 }
 
 .dropdown-menu-dark .dropdown-item:hover {
-    color: black;
+    color: var(--blackColor);
 }
 .navbar-dark .navbar-nav .nav-link {
 color: white;
 }
 .dropdown-menu-dark .dropdown-item {
-    color: black;
+    color: var(--blackColor);
 }
 
 .footer{
