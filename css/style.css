@@ -165,7 +165,7 @@ color: var(--grayColor);
 }
 
 .classes h2{
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 10px;
     padding-right: 50%;
@@ -176,7 +176,7 @@ color: var(--grayColor);
 width: 100%;
 }
 .classes_cont{
-    padding-left: 70px;
+    padding: 70px;
     width: 100%;
     text-align: center;
     margin-top: 20px;
